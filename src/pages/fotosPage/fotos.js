@@ -80,7 +80,7 @@ function Fotos(){
                 </div>
             </div>
             
-            <button onClick={() =>{window.location.replace('https://miju-love.vercel.app/fotos')}}>Fotos</button>
+            <button onClick={() =>{window.location.replace('https://miju-love.vercel.app/')}}>Pagina principal</button>
 
         </div>
     )
