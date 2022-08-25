@@ -65,18 +65,21 @@ function Fotos(){
 
                 <p>Nossas fotos =) <br></br>--Algumas Só--</p>
             </div>
-            <div className="foto-area">
-                <Carousel cols={1} rows={5} gap={10} loop>
-                {
-                    arrFoto.map((x) =>
-                    <Carousel.Item>
-                        <img width="100%" height='70%' src={x.link} />
-                    </Carousel.Item>
-                    )
-                }
-                </Carousel>
-                
+            <div>
+                <div className="foto-area">
+                    <Carousel cols={1} rows={5} gap={10} loop>
+                    {
+                        arrFoto.map((x) =>
+                        <Carousel.Item>
+                            <img width="100%" height='70%' src={x.link} />
+                        </Carousel.Item>
+                        )
+                    }
+                    </Carousel>
+                    
+                </div>
             </div>
+            
             <button onClick={() =>{window.location.replace('https://miju-love.vercel.app/fotos')}}>Fotos</button>
 
         </div>
