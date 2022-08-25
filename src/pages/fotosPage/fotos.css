@@ -41,3 +41,11 @@
     width: 20rem;
     height: 20rem;
 }
+.App-fotos> button {
+    width: 14vw;
+    height: 3vh;
+    background-color: rgb(157, 255, 0);
+    color: #000;
+    margin-top: 5vh;
+    border-radius: 30px;
+}

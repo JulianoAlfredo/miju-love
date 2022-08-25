@@ -77,6 +77,8 @@ function Fotos(){
                 </Carousel>
                 
             </div>
+            <button onClick={() =>{window.location.replace('https://miju-love.vercel.app/fotos')}}>Fotos</button>
+
         </div>
     )
 }
