@@ -1,14 +1,9 @@
-
-import './App.css';
-
+import React from 'react';
+import Routes from "./routes/routes"
 function App() {
   return (
-    <div className="App">
-      <div className='text-area'>
-        <p>
-          Oie mika, eu te amo
-        </p>
-      </div>
+    <div>
+      <Routes />
     </div>
   );
 }

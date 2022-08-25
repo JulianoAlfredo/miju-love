@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.App-mika{
+    
+  background-color: #1F1F1F;
+  display: flex;
+  justify-content: center;
+
+
+
+
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.text-tomika{
+    width: 92vw;
+    height: 80vh;
+    margin-top: 5rem;
+
+    padding: 0;
+    background-image: url('../../imgs/imgtexto.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.textmika-area {
+    font-size: 2rem;
+    padding: 4rem 1rem 0 1rem;
+}
+.text-tomika> button {
+    width: 14vw;
+    height: 3vh;
+    background-color: rgb(157, 255, 0);
+    color: #000;
+    margin-top: 5vh;
+    border-radius: 30px;
+}
+.textmika-area > p{
+    color:#fff;
+}
