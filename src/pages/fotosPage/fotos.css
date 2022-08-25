@@ -41,8 +41,9 @@
     height: 20rem;
 }
 .App-fotos> button {
-    width: 14vw;
+    width: 18vw;
     height: 3vh;
+    position: absolute;
     background-color: rgb(157, 255, 0);
     color: #000;
 
