@@ -1,0 +1,19 @@
+
+.App {
+  text-align: center;
+  background-color: #120A8F;
+  display: flex;
+
+  min-width: 100vw;
+  min-height: 100vh;
+
+  max-width: 100vw;
+  max-height: 100vh;
+}
+.text-area {
+  text-align: center;
+}
+.text-area > p{
+  color: #fff;
+  
+}
